@@ -46,7 +46,7 @@ em{font-size:13px}
 {
 width:220px;
 height:100px;
-background:url("images/logo.jpg") 0 0 no-repeat;
+background:url("/images/logo.jpg") 0 0 no-repeat;
 float:left;
 display:inline;
 margin:30px 0 40px 70px;
