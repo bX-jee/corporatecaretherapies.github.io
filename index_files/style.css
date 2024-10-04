@@ -1,0 +1,469 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
+/*--
+	Theme Name: Corporate Care Therapies
+	Theme URI: http://www.
+	Description: A custom theme for Corporate Care Therapies
+	Author: Zadro Communications
+	Author URL: http://www.zadrocommunications.com.au
+--*/
+/* CSS Document */
+html,body,h1,h2,h3,h4,h5,h6,p,img,ul,ol,li,form,fieldset,textarea,table
+{
+margin:0;
+padding:0;
+border:0 none;
+}
+.clearfix:after
+{
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+body
+{
+background:#6b6b6d;
+text-align:center;
+}
+#wrapper
+{
+width:1050px;
+background:#fff url('../images/wrapper-bg.jpg') 0 0 repeat-y;
+text-align:left;
+margin:0 auto;
+}
+#header
+{
+width:1024px;
+margin:0 auto;
+}
+
+em{font-size:13px}
+
+#header h1
+{
+width:220px;
+height:100px;
+background:url("../images/logo.jpg") 0 0 no-repeat;
+float:left;
+display:inline;
+margin:30px 0 40px 70px;
+}
+#header h1 a
+{
+width:220px;
+height:100px;
+display:block;
+}
+#header h1 span{display:none;}
+#header p 
+{
+font:32px 'Open Sans', Arial, Helvetica, sans-serif;
+color:#aa1d38;
+line-height:20px;
+clear:right;
+float:right;
+display:inline;
+text-align:right;
+margin:60px 66px 20px 0;
+}
+#header span
+{
+font:18px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:300;
+color:#56a1d5;
+line-height:18px;
+clear:right;
+float:right;
+display:inline;
+text-align:right;
+letter-spacing:12px;
+margin:0 53px 0 0;
+}
+#social-icons
+{
+width:80px;
+float:right;
+display:inline;
+margin:23px 66px 30px 0;
+}
+#social-icons .facebook
+{
+width:35px;
+height:36px;
+background:url('../images/ico-facebook.jpg') 0 0 no-repeat;
+float:right;
+display:inline;
+}
+#social-icons .linkedin
+{
+width:36px;
+height:36px;
+background:url('../images/ico-linkedin.jpg') 0 0 no-repeat;
+float:right;
+display:inline;
+margin:0 0 0 4px;
+}
+#social-icons .facebook:hover{background:url('../images/ico-facebook-hover.jpg') 0 0 no-repeat;}
+#social-icons .linkedin:hover{background:url('../images/ico-linkedin-hover.jpg') 0 0 no-repeat;}
+#social-icons .facebook span, #social-icons .linkedin span{display:none;}
+#nav-container
+{
+width:1024px;
+height:38px;
+padding:10px 0 10px 0;
+clear:both;
+background:#ab0534;
+}
+#nav-container ul{list-style:none;}
+#nav-container ul li
+{
+font:16px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:300;
+color:#fff;
+line-height:18px;
+padding:0 19px;
+border-left:1px solid #fff;
+float:left;
+display:inline;
+text-transform:uppercase;
+}
+#nav-container ul li:first-child{border:none;}
+#nav-container ul li a
+{
+color:#fff;
+text-decoration:none;
+display:block;
+}
+#nav-container ul li a:hover, #nav-container ul li.current_page_item a{font-weight:400;}
+#nav-container ul li.menu-item-48 a{width:150px;} /* about */
+#nav-container ul li.menu-item-49 a{width:172px;} /* corporate massage */
+#nav-container ul li.menu-item-47 a{width:172px;} /* event massage */
+#nav-container ul li.menu-item-45 a{width:150px;} /* massage at work */
+#nav-container ul li.menu-item-46 a{width:150px;} /* meditation */
+#nav-container ul li.menu-item-50 a{width:150px;} /* office massage */
+#nav-container ul li.menu-item-44 a{width:150px;} /* reflexology */
+#nav-container ul li.menu-item-42 a{width:150px;} /* massage angels */
+#nav-container ul li.menu-item-43 a{width:109px;} /* testimonials */
+#banner
+{
+width:1024px;
+height:360px;
+margin:0 auto;
+}
+#content
+{
+width:1024px;
+min-height:500px;
+margin:0 auto;
+padding:0 0 10px 0;
+}
+#big-icons
+{
+width:884px;
+padding:35px 40px 0 100px;
+display:block;
+}
+#big-icons a.quote
+{
+width:140px;
+height:244px;
+background:url('../images/quote.jpg') 0 0 no-repeat;
+float:left;
+display:inline;
+margin:0 88px 0 0;
+}
+#big-icons a.contact
+{
+width:148px;
+height:244px;
+background:url('../images/contact.jpg') 0 0 no-repeat;
+float:left;
+display:inline;
+margin:0 60px 0 0;
+}
+#big-icons a.services
+{
+width:164px;
+height:244px;
+background:url('../images/services.jpg') 0 0 no-repeat;
+float:left;
+display:inline;
+margin:0 55px 0 0;
+}
+#big-icons a.nationwide
+{
+width:192px;
+height:244px;
+background:url('../images/nationwide.jpg') 0 0 no-repeat;
+float:left;
+display:inline;
+}
+#big-icons a.quote:hover{background:url('../images/quote-hover.jpg') 0 0 no-repeat;}
+#big-icons a.contact:hover{background:url('../images/contact-hover.jpg') 0 0 no-repeat;}
+#big-icons a.services:hover{background:url('../images/services-hover.jpg') 0 0 no-repeat;}
+#big-icons a.nationwide:hover{background:url('../images/nationwide-hover.jpg') 0 0 no-repeat;}
+#big-icons a span{display:none;}
+#left
+{
+width:600px;
+clear:both;
+float:left;
+display:inline;
+margin:0 0 0 73px;
+padding:40px 0;
+}
+#left h1
+{
+font:20px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#4f4e4e;
+line-height:24px;
+margin:0 0 15px 0;
+}
+#left h2
+{
+font:20px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#ab0534;
+line-height:22px;
+margin:0 0 20px 0;
+}
+#left h3
+{
+font:23px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#56a1d5;
+line-height:25px;
+margin:0 0 20px 0;
+}
+#left h4
+{
+font:20px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#4f4e4e;
+line-height:22px;
+margin:0 0 20px 0;
+}
+#left p
+{
+font:15px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#4f4e4e;
+line-height:18px;
+margin:0 0 30px 0;
+}
+#left p a{color:#4f4e4e;}
+#left .red
+{
+font:15px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#aa1d38;
+}
+#left .red a
+{
+color:#aa1d38;
+text-decoration:none;
+}
+#left ul{margin:0 0 30px 0;}
+#left ul li
+{
+font:15px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#4f4e4e;
+line-height:18px;
+margin:0 0 5px 0;
+list-style:none;
+background:url('../images/bullet.jpg') 0 5px no-repeat;
+padding:0 0 0 20px;
+}
+#left dl dt
+{
+width:108px;
+clear:left;
+float:left;
+display:inline;
+font:15px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#4f4e4e;
+line-height:18px;
+padding:0;
+margin:0 0 18px 0;
+}
+#left dl dd
+{
+width:458px;
+float:left;
+display:inline;
+margin:0 0 18px 0;
+padding:0;
+}
+#left dl dd input[type='text']
+{
+width:448px !important;
+height:23px !important;
+background:url('../images/textfield.jpg') 0 0 no-repeat !important;
+border:none !important;
+padding:0 0 0 10px !important;
+}
+#left dl dd input[type='checkbox']{margin:0;}
+#left table.why
+{
+font:15px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#4f4e4e;
+line-height:18px;
+margin:0 0 0 -8px;
+}
+#left table.why strong{font-weight:700;}
+#left table.why td{vertical-align:top;}
+#left .wpcf7 table
+{
+font:15px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#4f4e4e;
+line-height:18px;
+}
+#left .wpcf7 table td{vertical-align:top;}
+#left .wpcf7 table input[type='text']
+{
+width:45px;
+height:21px;
+background:url('../images/textfield2.jpg') 0 0 no-repeat;
+border:none;
+padding:0 0 0 10px;
+}
+#left .wpcf7 table input[type='submit']
+{
+width:95px;
+height:27px;
+background:url('../images/btn-submit.jpg') 0 0 no-repeat;
+text-indent:-999px;
+border:none;
+padding:0;
+cursor:pointer;
+}
+#left .wpcf7 table .select
+{
+width:238px;
+height:23px;
+background:url('../images/dropdown.jpg') 0 0 no-repeat !important; 
+margin:0 0 20px 0;
+border:none;
+}
+#left .wpcf7 table select
+{
+width:238px;
+height:23px;
+padding:0 0 0 10px;
+-webkit-appearance: none;
+-moz-appearance: window;
+appearance: none;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+border:none;
+background:none;
+}
+#left .wpcf7-list-item
+{
+width:100%;
+clear:left;
+float:left;
+display:inline;
+margin-left:0;
+}
+#left .wpcf7-response-output
+{
+font:15px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#fff;
+background:#aa1d38;
+border:none !important;
+padding-bottom:5px;
+}
+#left .clear{clear:both;}
+#right
+{
+width:255px;
+float:right;
+display:inline;
+margin:0 64px 0 0;
+	margin:0;
+padding:40px 0 0 0;
+}
+#right ul
+{
+width:213px;
+float:left;
+display:inline;
+list-style:none;
+}
+#right ul li
+{
+width:198px;
+height:50px;
+clear:left;
+float:left;
+display:inline;
+margin:0 0 13px 0;
+}
+#right ul li.quote a{background:url('../images/btn-quote.jpg') 0 0 no-repeat;}
+#right ul li.contact a{background:url('../images/btn-contact.jpg') 0 0 no-repeat;}
+#right ul li.services a{background:url('../images/btn-services.jpg') 0 0 no-repeat;}
+#right ul li.choose a{background:url('../images/btn-choose.jpg') 0 0 no-repeat;}
+#right ul li.quote a:hover{background:url('../images/btn-quote-hover.jpg') 0 0 no-repeat;}
+#right ul li.contact a:hover{background:url('../images/btn-contact-hover.jpg') 0 0 no-repeat;}
+#right ul li.services a:hover{background:url('../images/btn-services-hover.jpg') 0 0 no-repeat;}
+#right ul li.choose a:hover{background:url('../images/btn-choose-hover.jpg') 0 0 no-repeat;}
+#right ul li a
+{
+width:198px;
+height:50px;
+display:block;
+}
+#right ul li span{display:none;}
+#testimonials ul
+{
+width:100%;
+height:200px;
+display:block;
+}
+#testimonials li p
+{
+font:20px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#a91d38;
+line-height:22px;
+text-align:center;
+}
+#testimonials li p.author
+{
+font:italic 15px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:400;
+color:#4f4e4e;
+}
+#footer
+{
+width:1050px;
+height:35px;
+background:url('../images/footer-bg.jpg') 0 0 no-repeat;
+clear:both;
+padding:20px 0 0 0;
+}
+#footer p
+{
+font:10px 'Open Sans', Arial, Helvetica, sans-serif;
+font-weight:300;
+color:#fff;
+line-height:12px;
+text-align:right;
+margin:0 10px 0 0;
+}
+#footer p a
+{
+color:#fff;
+text-decoration:none;
+}
