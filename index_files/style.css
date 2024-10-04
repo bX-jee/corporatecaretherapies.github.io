@@ -120,7 +120,7 @@ background:#ab0534;
 #nav-container ul{list-style:none;}
 #nav-container ul li
 {
-font:14px 'Open Sans', Arial, Helvetica, sans-serif;
+font:16px 'Open Sans', Arial, Helvetica, sans-serif;
 font-weight:300;
 color:#fff;
 line-height:18px;
@@ -201,10 +201,10 @@ background:url('images/nationwide.jpg') 0 0 no-repeat;
 float:left;
 display:inline;
 }
-#big-icons a.quote:hover{background:url('../images/quote-hover.jpg') 0 0 no-repeat;}
-#big-icons a.contact:hover{background:url('../images/contact-hover.jpg') 0 0 no-repeat;}
-#big-icons a.services:hover{background:url('../images/services-hover.jpg') 0 0 no-repeat;}
-#big-icons a.nationwide:hover{background:url('../images/nationwide-hover.jpg') 0 0 no-repeat;}
+#big-icons a.quote:hover{background:url('images/quote-hover.jpg') 0 0 no-repeat;}
+#big-icons a.contact:hover{background:url('images/contact-hover.jpg') 0 0 no-repeat;}
+#big-icons a.services:hover{background:url('images/services-hover.jpg') 0 0 no-repeat;}
+#big-icons a.nationwide:hover{background:url('images/nationwide-hover.jpg') 0 0 no-repeat;}
 #big-icons a span{display:none;}
 #left
 {
